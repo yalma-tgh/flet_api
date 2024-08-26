@@ -1,0 +1,112 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django specific:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+*.pyo
+*.pyd
+*.pdb
+
+# Django migrations
+**/migrations/*
+**/migrations/__pycache__/
+!**/migrations/*.py
+
+# Local environment settings
+.env
+.env.local
+.env.*.local
+*.env
+
+# Virtualenv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# JetBrains project files
+.idea/
+
+# VS Code settings
+.vscode/
+.code-workspace
+
+# macOS files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pycache__/
+*.egg-info/
+.installed.cfg
+*.egg-info/
+.eggs/
+
+# pipenv
+Pipfile.lock
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# pytest
+.pytest_cache/
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# celery beat schedule file
+celerybeat-schedule
+
+# translations
+*.mo
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Sphinx documentation
+docs/_build/
+
+# static and media files
+staticfiles/
+media/
+mediafiles/
+
+# Local Heroku settings
+*.mo
+*.pot
+procfile
